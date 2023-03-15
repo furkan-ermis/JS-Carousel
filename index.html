@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Carousel</title>
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
     <script
@@ -12,7 +12,33 @@
       src="https://kit.fontawesome.com/6ab4b1a255.js"
       crossorigin="anonymous"
     ></script>
-    
   </head>
-  <body></body>
+  <body>
+    <div class="carousel">
+      <button class="carousel__button carousel__button--left">
+        <i class="fas fa-angle-left"></i>
+      </button>
+      <div class="caraousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide">
+            <img class="carousel__image" src="img/005.jpg" alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="img/002.jpg" alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="img/003.jpg" alt="" />
+          </li>
+        </ul>
+      </div>
+      <button class="carousel__button carousel__button--right">
+        <i class="fas fa-angle-right"></i>
+      </button>
+      <div class="carousel__nav">
+        <button class="carousel__indicators"></button>
+        <button class="carousel__indicators"></button>
+        <button class="carousel__indicators"></button>
+      </div>
+    </div>
+  </body>
 </html>

@@ -20,3 +20,22 @@ font-family: 'Sono', sans-serif;         - thin-100 , regular-400 , medium-500-i
   --fw-regular: 400;
   --fw-thin: 100;
 }
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel {
+  position: relative;
+  margin: 0 auto;
+  height: 600px;
+  width: 80%;
+}
+.carousel__track {
+}
+.carousel__image {
+  width: 100%;
+}
