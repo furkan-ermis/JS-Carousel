@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:ital,wght@0,100;0,400;1,500&family=Sono&display=swap");
+/* 
+font-family: 'Orbitron', sans-serif;     - regular-400
+font-family: 'Roboto', sans-serif;       - regular-400
+font-family: 'Sono', sans-serif;         - thin-100 , regular-400 , medium-500-italic 
+*/
+
+:root {
+  --clr-primary: #232533;
+  --clr-secondary: #323444;
+  --clr-third: #404457;
+  --clr-blue: #5b85f9;
+  --clr-yellow: #fad00c;
+  --clr-neutral: #eceaed;
+
+  --ff-roboto: "Roboto", sans-serif;
+  --ff-orbitron: "Orbitron", sans-serif;
+  --ff-sono: "Sono", sans-serif;
+
+  --fw-regular: 400;
+  --fw-thin: 100;
+}
